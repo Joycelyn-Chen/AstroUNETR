@@ -4,7 +4,6 @@ import json
 import argparse
 import matplotlib.pyplot as plt
 
-# python hist-of-ratio.py --output_root /home/joy0921/Desktop/Dataset/MHD-3DIS/hist-of-temp
 
 plot_labels = ['Discrete Bubble', 'SB230', 'Interconnected structure']
 color_labels = ['#446e1a', '#fcbf20', '#e73332']

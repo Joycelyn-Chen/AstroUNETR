@@ -10,7 +10,6 @@ parser.add_argument('-et', '--end_timestamp', help='Input the ending timestamp',
 parser.add_argument('-i', '--interval', help='Timestamp interval', default = 10, type=int)
 parser.add_argument('-cz', '--center_z', help='Center z coordinate to be sliced through', default = 171, type=int)
 
-# python hdf52sliceplot.py --output_root /home/joy0921/Desktop/Dataset/MHD-3DIS/sliceplots --hdf5_root /srv/data/stratbox_simulations/stratbox_particle_runs/bx5/smd132/sn34/pe300/4pc_resume/4pc -st 380 -et 670 -i 10 -cz 171
 def timestamp2time_Myr(timestamp):
     return (timestamp - 200) * 0.1 + 191
 
