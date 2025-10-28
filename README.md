@@ -1,4 +1,6 @@
 # AstroUNETR
+[![DOI](https://zenodo.org/badge/1085115056.svg)](https://doi.org/10.5281/zenodo.17468097)
+
 This repository contains code and utilities developed in support of the paper submission entitled:
 
 "Segmenting Superbubbles in a simulated Multiphase Interstellar Medium using Computer Vision"
